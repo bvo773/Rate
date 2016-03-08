@@ -1,0 +1,51 @@
+INSTRUCTIONS
+------------
+
+TASK
+Create an interactive chart using Javscript, HTML, CSS and
+the libraries jQuery and HighCharts.
+
+STEPS
+1. Convert the data.csv file into a valid JSON file. Use any
+of the common CSV to JSON converters available online,
+such as (http://www.csvjson.com/csv2json) and check it against
+a validator (http://jsonlint.com/).
+
+2. Modify js/main.js to build a chart using the HighCharts 
+library. Here is a tutorial:
+http://www.highcharts.com/docs/getting-started/your-first-chart
+
+In addition to a highcharts object, make sure your final 
+page has the following elements,  in the following order
+from top to bottom::
+     a. Headline
+     b. Explainer 
+     c. Highcharts chart
+     d. Sourceline 
+     e. Byline
+
+You can create these elements either in the index.html file
+or leave index.html untouched and add elements using jQuery
+for extra style points.
+
+If you're not familiar with the javascript console in 
+your browser of choice, get familiar with it.
+
+https://developer.chrome.com/devtools
+
+3. Modify css/style.css as necessary to style your chart.
+
+You may want to use Bootstrap JS and CSS to start out with
+prettier default elements: 
+
+https://www.bootstrapcdn.com/
+
+4. Check your HTML against the W3C HTML validator :
+https://validator.w3.org/
+And check your CSS against the CSS validator:
+https://jigsaw.w3.org/css-validator/
+
+ADDITIONAL RESOURCES
+
+http://www.w3schools.com/bootstrap/
+
